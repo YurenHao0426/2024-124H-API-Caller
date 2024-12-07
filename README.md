@@ -10,7 +10,11 @@ This is a simple script that extracts meeting details from an email. It uses the
 pip install openai
 pip install pyyaml
 ```
-3. Set the OpenAI API key in the `api-key.yaml` file
+3. Set the OpenAI API key in the `api-key.yaml` file with the following format:
+```
+openai:
+  api_key: ""
+```
 4. Run the script
 
 ## Open-ai API Key
